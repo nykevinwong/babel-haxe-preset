@@ -1,0 +1,15 @@
+{
+  "name": "babel-haxe-preset",
+  "version": "1.0.0",
+  "description": "babel for haxe",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src -d lib"
+  },
+  "author": "Kyang N Wong(Kevin Wong)",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-es2015-arrow-functions": "^6.22.0",
+  }
+}
